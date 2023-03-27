@@ -1,0 +1,30 @@
+#button {
+    padding: 1rem 3rem;
+    color: #313131;
+    background: white;
+    margin-right: 2.5rem;
+    font-weight: 700;
+    border: 2.2px solid #313131;
+    margin-bottom: 40px;
+}
+
+#button.active {
+    background-color: grey;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+}
+
+li {
+    font-size: 25px;
+}
+
+.recipeImg {
+    width: 85%;
+    border-radius: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+

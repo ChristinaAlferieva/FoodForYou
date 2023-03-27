@@ -1,0 +1,34 @@
+.additiveSection {
+  margin-top: 20px;
+}
+
+.productAdditive + .productAdditive {
+  margin-top: 10px;
+}
+
+.additiveTitle {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  padding-top: 25px;
+}
+
+.additiveCode {
+  text-transform: uppercase;
+}
+
+.riskValue {
+ text-transform: uppercase;
+}
+
+.riskValue.high {
+  color: #ff4d47;
+}
+
+.riskValue.moderate {
+  color: #faa911;
+}
+
+.riskValue.low {
+  color: #3ae487;
+}

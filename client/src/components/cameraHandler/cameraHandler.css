@@ -1,0 +1,32 @@
+.cameraButton {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 1;
+}
+
+.cameraContainer .cameraButton {
+  color: white;
+  background-color: orange;
+}
+
+.cameraEnable {
+  margin: 0 auto 70px;
+  color: white;
+}
+
+.cameraMessage {
+  padding: 0 20px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 70px;
+}
+
+.cameraUnsupported {
+  align-items: center;
+  padding-top: 200px;
+}
+
+

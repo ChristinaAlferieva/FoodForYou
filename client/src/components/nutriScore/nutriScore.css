@@ -1,0 +1,25 @@
+
+.nutriDetail {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto;
+  max-height: 50px;
+  padding: 0 15px;
+}
+
+.nutriImage {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto;
+  max-height: 80px;
+  padding: 0 15px;
+}
+
+
+.nutriHistory {
+  max-width: 90px;
+  margin-right: 30px;
+  float: right;
+}
+
+

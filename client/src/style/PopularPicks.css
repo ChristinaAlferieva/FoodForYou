@@ -1,0 +1,69 @@
+.container {
+    margin: 4rem 0rem;
+}
+
+.bor_header_left {
+    position: relative;
+    display: inline-block;
+    height: 3px;
+    background: #006FB9;
+    width: 40px;
+    border-radius: 43px;
+    margin-right: 2%;
+    top: -3px;
+}
+
+.bor_header_right {
+    position: relative;
+    display: inline-block;
+    height: 3px;
+    background: #006FB9;
+    width: 40px;
+    border-radius: 43px;
+    margin-left: 2%;
+    top: -3px;
+}
+
+.card {
+    min-height: 16rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-top {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+p {
+    font-size: 20px;
+}

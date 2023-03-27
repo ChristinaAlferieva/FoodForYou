@@ -1,0 +1,15 @@
+.novaContainer {
+  padding: 0 15px;
+}
+
+.novaImage {
+  display: block;
+  max-height: 50px;
+  margin: 0 auto;
+}
+
+.novaCaption {
+  font-style: italic;
+  font-size: 11px;
+  text-align: center;
+}

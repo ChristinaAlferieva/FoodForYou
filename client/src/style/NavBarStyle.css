@@ -1,0 +1,54 @@
+.navbar {
+    background-color: lightblue;
+    position: sticky;
+    box-shadow: 1px 3px 7px #1111110f;
+    color: white;
+}
+
+.nav-title {
+    padding: 50px;
+    font-family: "Monospace";
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+  }
+
+.navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+} 
+
+.navbar .nav-title {
+    font-size: 30px;
+    color: white;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar .nav-link {
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    margin: 0 20px;
+}
+
+.navbar .me-2 {
+    color: white;
+    margin: 0 50px;
+    background-color: orange;
+}
+
+.navbar .me-2.active,
+.navbar .me-2:focus,
+.navbar .me-2:hover {
+    font-weight: bold;
+    color: white;
+}

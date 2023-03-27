@@ -1,0 +1,89 @@
+.containerDisplay {
+  padding: 100px;
+  flex: 1;
+  width: 90%;
+  margin-bottom: 50px;
+  padding-left: 250px;
+  font-size: 19px;
+}
+
+.historyButton {
+  top: 200px;
+  right: 300px;
+  z-index: 1;
+  position: absolute;
+  z-index: 99;
+}
+
+.specialTitle {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.titleContainer {
+  display: flex;
+}
+
+.textContainer {
+  margin-left: 15px;
+  flex: 1;
+}
+
+.imgFound {
+  width: 200px;
+  padding: 10px;
+  flex: 1;
+}
+
+.barcode {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.specialDiet {
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: calc(50% - 10px);
+  padding-right: 10px;
+  padding-left: 30px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 4px #ccc;
+}
+
+.listItem {
+  margin-top: 10px;
+}
+
+.listLabel {
+  text-transform: capitalize;
+}
+
+.listValue {
+  text-transform: uppercase;
+}
+
+.listValue.high {
+  color: #ff4d47;
+}
+
+.listValue.moderate {
+  color: #faa911;
+}
+
+.listValue.low {
+  color: #3ae487;
+}
+
+.productScores {
+  display: flex;
+  width: 50%;
+}
+
+.disclaimer {
+  text-align: center;
+}

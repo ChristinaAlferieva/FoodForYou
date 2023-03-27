@@ -1,0 +1,72 @@
+.historyList {
+  display: flex;
+  position: relative;
+  padding: 30px;
+  transition: box-shadow 0.2s ease-in-out;
+  border: 1px solid rgb(178, 174, 174);
+  margin-bottom: 10px;
+}
+
+.historyList:hover {
+  box-shadow: 1px 1px 6px 0px #666666;
+}
+
+.historyList + .historyList {
+  border-top: solid 1px #ddd;
+}
+
+.historyImgWrapper {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+  text-align: center;
+}
+
+.historyImg {
+  max-width: 50px;
+  margin: 0 auto;
+}
+
+.historyText {
+  flex: 0.6;
+}
+
+.historyTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.historyBarcode {
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.historyLink {
+  color: #2c2a2a;
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+}
+
+.deleteBtn {
+  border: none;
+  background: none;
+  cursor: pointer;
+} 
+
+.historyArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 50px;
+}
+
+.noHistory {
+  text-align: center;
+  padding: 20%;
+}
+
+.historyDelete {
+  display: flex;
+}
+

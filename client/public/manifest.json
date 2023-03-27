@@ -1,0 +1,6 @@
+{
+	"name": "FoodForYou",
+	"short_name": "FoodForYou",
+	"start_url": "/",
+	"display": "standalone"
+}

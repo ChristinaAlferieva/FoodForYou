@@ -1,0 +1,29 @@
+form {
+    margin: 0rem 10rem;
+    margin-top: 2.2rem;
+}
+
+form div {
+    width: 100%;
+    position: relative;
+}
+
+form input {
+    border: none;
+    background: #656363;
+    font-size: 1.8rem;
+    color: white;
+    padding: 1.5rem 3.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    outline: none;
+    width: 100%;
+}
+
+form svg {
+    transform: translate(100%, -50%);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
