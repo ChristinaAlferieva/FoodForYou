@@ -1,0 +1,8 @@
+ {
+    "env": {
+        "DB_User": "admin",
+        "DB_Password": "EZdD0IKudXsMKg7E",
+        "DB_Name": "Blog",
+        "REACT_APP_API_KEY": "b7d7e18000eb411c8dddf38d662abceb"
+    }
+ }

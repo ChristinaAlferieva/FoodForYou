@@ -16,7 +16,7 @@ app.use("/api/kitchen", kitchenRouter);
 
 mongoose
 .connect(
-    'mongodb+srv://admin:EZdD0IKudXsMKg7E@cluster0.sqni9ms.mongodb.net/Blog?retryWrites=true&w=majority'
+    `mongodb+srv://${process.env.DB_User}:${process.env.DB_Password}@cluster0.sqni9ms.mongodb.net/${process.env.DB_Name}?retryWrites=true&w=majority`
 )
 .then(() => app.listen(4000))
 .then(() => 
